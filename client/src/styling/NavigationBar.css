@@ -1,0 +1,134 @@
+.navigationWrapperDesktop {
+    /* position: sticky; */
+    /* top: 0; */
+    /* display: grid; */
+    /* grid-template-columns: repeat(5,1fr); */
+    position: sticky;
+    top: 0;
+    float: right;
+    display: grid;
+    display: inline;
+    padding: 2vh;
+    width: 10vw;
+
+    grid-column: 5/5;
+}
+
+.navigationWrapperMobile {
+    /* position: sticky; */
+    /* top: 0; */
+    /* display: grid; */
+    /* grid-template-columns: repeat(5,1fr); */
+    position: sticky;
+    top: 0;
+    float: right;
+    display: grid;
+    display: inline;
+    padding: 2vh;
+    width: 10vw;
+
+    grid-column: 5/5;
+}
+
+
+.mobileMonogram {
+    position: sticky;
+    top: 0;
+    display: inline;
+    display: grid;
+    margin-top: 2vh;
+    margin-left: 4vw;
+    width: 17vw;
+    grid-column: 1/5;
+    float: left;
+    border-radius: 30px;
+}
+
+.desktopMonogram {
+    position: sticky;
+    top: 0;
+    display: inline;
+    display: grid;
+    margin-top: 4vh;
+    margin-left: 4vw;
+    width: 15vw;
+    grid-column: 1/5;
+    float: left;
+    border-radius: 30px;
+}
+
+.waterDesktop {
+    display: inline;
+    width:60vw;
+    border-radius: 8px;
+    grid-column: 6/10;
+    margin-left: 5vw;
+    margin-right: 2vw;
+    margin-top: 5vh;
+}
+
+.waterMobile {
+    display: inline;
+    width:55vw;
+    border-radius: 8px;
+    grid-column: 6/10;
+    margin-left: 0vw;
+    margin-right: 0vw;
+    margin-top: 3vh;
+}
+
+.mobileIconDiv {
+    margin: 2vh;
+    padding-right: 2vw;
+    /* width: 15vw; */
+    grid-column: 10/10;
+}
+
+.mobileIcon {
+    width: 10vw;
+    padding-right: 2vw;
+}
+
+.desktopIcon {
+    width: 4vw;
+}
+
+.menuDropDownMobile {
+    display: block;
+    position: absolute;
+    right: 0;
+    background-color: rgba(43, 38, 38, 0.877);
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    border-radius: 8px;
+    z-index: 1;
+}
+
+.menuDropDownDesktop {
+    display: block;
+    position: absolute;
+    right: 0;
+    background-color: rgba(43, 38, 38, 0.877);
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    border-radius: 8px;
+    z-index: 1;
+}
+
+.navLinks {
+    display: block;
+    cursor: pointer;
+    padding: 10px;
+}
+
+.navLinksMobile {
+    display: block;
+    cursor: pointer;
+    padding: 10px;
+}
+
+.navLinksDesktop {
+    display: block;
+    cursor: pointer;
+    padding: 10px;
+}

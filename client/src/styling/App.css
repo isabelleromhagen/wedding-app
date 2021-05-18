@@ -1,0 +1,374 @@
+/* global rules */
+
+@font-face {font-family: "SnellRoundhand Script";
+    src: url("//db.onlinewebfonts.com/t/2bd3372d24f66349c0f3c5d10d0735c8.eot"); /* IE9*/
+    src: url("//db.onlinewebfonts.com/t/2bd3372d24f66349c0f3c5d10d0735c8.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+    url("//db.onlinewebfonts.com/t/2bd3372d24f66349c0f3c5d10d0735c8.woff2") format("woff2"), /* chrome firefox */
+    url("//db.onlinewebfonts.com/t/2bd3372d24f66349c0f3c5d10d0735c8.woff") format("woff"), /* chrome firefox */
+    url("//db.onlinewebfonts.com/t/2bd3372d24f66349c0f3c5d10d0735c8.ttf") format("truetype"), /* chrome firefox opera Safari, Android, iOS 4.2+*/
+    url("//db.onlinewebfonts.com/t/2bd3372d24f66349c0f3c5d10d0735c8.svg#SnellRoundhand Script") format("svg"); /* iOS 4.1- */
+}
+
+.App {
+  text-align: center;
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  text-align: center;
+}
+
+a {
+  padding: 2vh;
+  color: #a8c29a;
+}
+
+.mobileHeader {
+  padding: 5vw;
+  font-family: 'SnellRoundhand Script';
+  font-size: 3em;
+  color: #D4B780;
+  margin-top: 3vh;
+  padding-left: 5vw;
+}
+
+.desktopHeader {
+  padding: 5vw;
+  font-family: 'SnellRoundhand Script';
+  font-size: 3em;
+  color: #D4B780;
+  margin-top: 3vh;
+  padding-left: 20vw;
+}
+
+.mobileFormHeader {
+  padding: 5vw;
+  font-family: 'SnellRoundhand Script';
+  font-size: 3em;
+  color: #D4B780;
+  margin-top: 3vh;
+
+}
+
+.desktopFormHeader {
+  padding: 5vw;
+  font-family: 'SnellRoundhand Script';
+  font-size: 3em;
+  color: #D4B780;
+  margin-top: 3vh;
+
+}
+
+h3 {
+  padding: 5vw;
+  padding-bottom: 3vh;
+  /* padding-top: 3vh; */
+  font-family: 'SnellRoundhand Script';
+  font-size: 2em;
+  color: #D4B780;
+}
+
+.mobileSubHeader {
+  margin-left: 8vw;
+  margin-right: 0vw;
+  padding-right: 0vw;
+}
+
+p {
+  /* color: #9AC985; */
+  color: #506346;
+  font: didot;
+}
+
+h4 {
+  color:#506346;
+  font: didot;
+}
+
+.rsvph4Desktop {
+  display: block;
+  margin-left: 25vw;
+  width:50vw;
+}
+
+.rsvph4Mobile {
+  display: block;
+  margin-left: 25vw;
+  width:50vw;
+}
+
+.mobileText {
+  margin-left: 2vw;
+  margin-right: 0vw;
+  margin-bottom: 5vh;
+  padding-right: 0vw;
+  width: 120%;
+}
+
+.desktopText {
+  margin-left: 10vw;
+  margin-right: 0vw;
+  margin-bottom: 5vh;
+  padding-right: 0vw;
+  width: 100%;
+  font-size: large;
+}
+
+ul {
+  /* list-style: square inside; */
+  list-style: square;
+  color: #506346;
+  margin-left: 20vw;
+  list-style-position: inside;
+  /* width: 50vw; */
+  /* color: crimson; */
+}
+
+li {
+  /* padding-left:30vw; */
+  text-align: start;
+}
+
+button {
+  padding: 1.5vh;
+   margin-left: auto;
+  margin-right: auto; 
+  text-align: center;
+  margin-top: 5vh;
+  /* margin-left: 20vw; */
+  border: none;
+  background-color: rgb(56, 55, 54);
+  color: white;
+  border-radius: 14px;
+}
+
+/* container rules */
+
+.container {
+  /* padding: 10px; */
+  width: 60vw;
+  margin-left: auto;
+  margin-right: auto; 
+  margin-bottom: 20vh;
+  text-align: center;
+
+  /* border: 1px solid red;  */
+}
+
+.mobileContainer {
+  width: 60vw;
+  margin-left: auto;
+  margin-right: auto; 
+  padding-right: 15vw;
+  padding-bottom: 20vh;
+  text-align: center;
+}
+
+.desktopContainer {
+  width: 60vw;
+  margin-left: auto;
+  margin-right: auto; 
+  padding-right: 15vw;
+  padding-bottom: 20vh;
+  text-align: center;
+}
+
+/* home rules*/
+
+#inbjudan {
+  margin-bottom: 10vh;
+  margin-top: 5vh;
+  /* height:800px; */
+  /* height: 40vh; */
+  width: 50vw;
+}
+
+#home-text {
+  text-align: center;
+  width: 50vw;
+}
+
+/* info rules */
+
+.imgMobile {
+  margin-top: 3vh;
+  margin-bottom: 5vh;
+  width: 120%;
+  border-radius: 30px;
+}
+
+.imgDesktop {
+  margin-top: 5vh;
+  margin-bottom: 7vh;
+  width: 60%;
+  border-radius: 30px;
+  margin-left: 15vw;
+  /* margin-right: auto; */
+}
+
+.mobileSubHeader {
+  margin-left: 4vh;
+}
+
+.desktopSubHeader {
+  margin-left: 15vw;
+  font-size: large;
+}
+
+.mobileList {
+  margin-left: 4vh;
+  text-align: center;
+  width: 100%;
+}
+
+.desktopList {
+  margin-left: 15vw;
+  text-align: center;
+  width: 80%;
+  text-align: left;
+}
+
+input {
+  padding: 1vh;
+  border-radius: 5px;
+
+}
+
+/* acc rules */
+
+.listDiv {
+  /* margin-left: 30vw; */
+  margin-left: auto;
+  margin-right: auto;
+  align-items: center;
+  text-align: left;
+  width: 45vh;
+  
+  /* border: 1px solid red; */
+}
+
+
+
+/* contact rules */
+
+.formItem {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 3vw;
+  margin-bottom: 2vh;
+}
+
+.formItemDesktop {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2vh;
+  margin-bottom: 3vh;
+}
+
+.mobileForm {
+  margin-left: 15vw;
+}
+
+.desktopForm {
+  margin-left: 15vw;
+}
+
+.guestsDiv {
+  display: flex;
+  margin-left: 25vw;
+  margin-right: auto;
+}
+
+.guest {
+  padding: 2vw;
+}
+
+.desktopRSVP {
+  display:flex;
+}
+
+.mobileRSVP {
+  /* width: 80vw; */
+}
+
+.desktopDinner {
+  margin-left: 30vw;
+  margin-right: 0vw;
+}
+
+.mobileDinner {
+  margin-left: 15vw;
+  margin-right: 0vw;
+}
+
+.desktopDinnerDiv {
+    display: grid;
+    align-items: center;
+    width: 40vw;
+    padding-bottom: 20vh;
+    margin-left: 30vw;
+    text-align: center;
+}
+
+.mobileDinnerDiv {
+  /* border: 1px solid red; */
+  /* padding-left: 15vw; */
+}
+
+.mobileDinnerHeader {
+  /* padding: 1vw; */
+  font-family: 'SnellRoundhand Script';
+  /* font-size: 2.5em; */
+  color: #D4B780;
+  margin-top: 3vh;
+  margin-left: 0vw;
+  padding-left: 0vw;
+}
+
+.desktopProgram {
+  margin-right: 0vw;
+  margin-left: 0vw;
+}
+
+.mobileProgram {
+  margin-right: 0vw;
+  margin-left: 0vw;
+  
+}
+
+.desktopProgramDiv {
+    display: grid;
+    align-items: center;
+    margin-left: 30vw;
+    width: 40vw;
+    padding-bottom: 20vh;
+    text-align: center;
+}
+
+.mobileProgramDiv {
+    /* width: 40vw; */
+    padding-bottom: 20vh;
+    /* padding-left: 15vw; */
+    /* text-align: center; */
+}
+
+.desktopGallery {
+   display: inline;
+   margin-bottom: 20vh;
+   /* margin-left: 12vw; */
+}
+
+.mobileGallery {
+   display: inline;
+   /* margin-bottom: 100vh; */
+   /* margin-left: 1vw; */
+   /* border: 1px solid red; */
+   width: 100vw;
+}
+
